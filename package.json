@@ -1,0 +1,19 @@
+{
+  "name": "@connecthing.io/connecthing-api",
+  "version": "1.0.1",
+  "description": "A module to facilitate making secure api calls to connecthing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Davra/connecthing-api.git"
+  },
+  "author": "Davra Networks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Davra/connecthing-api/issues"
+  },
+  "homepage": "https://github.com/Davra/connecthing-api#readme"
+}
