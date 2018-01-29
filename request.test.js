@@ -1,4 +1,4 @@
-var connecthingapi = require("../index.js");
+var connecthingapi = require("./request.js");
 
 connecthingapi.request({
 	url: "/api/v1/devices"

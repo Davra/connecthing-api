@@ -1,7 +1,7 @@
 {
   "name": "@connecthing.io/connecthing-api",
-  "version": "1.0.2",
-  "description": "A module to facilitate making secure api calls to connecthing ",
+  "version": "1.1.0",
+  "description": "Modules to facilitate making secure api calls to connecthing",
   "main": "index.js",
   "scripts": {
     "test": "node test/test.js"
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/Davra/connecthing-api#readme",
   "dependencies": {
     "request": "^2.81.0"
-  }
+  },
+  "keywords": [
+    "connecthing",
+    "api",
+    "objectstore",
+    "restheath"
+  ]
 }
