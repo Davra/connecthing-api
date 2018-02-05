@@ -15,7 +15,7 @@ function request(opts, cb){
 	opts.headers = opts.headers || {};
 	opts.headers["Authorization"] = "Bearer " + token;
 	delete opts.auth;
-	return rq(opts, cb);
+	return rq(opts, cb||opts.callback);
 }
 
 module.exports = request
