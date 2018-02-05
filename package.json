@@ -4,7 +4,7 @@
   "description": "Modules to facilitate making secure api calls to connecthing",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node request.test.js"
   },
   "repository": {
     "type": "git",
