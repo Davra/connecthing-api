@@ -6,7 +6,7 @@ var token = null;
 function request(opts, cb){
 
 	if(!token){
-		token = fs.readFileSync("/etc/connecthing-api/token");
+		token = fs.readFileSync("/etc/connecthing-api/token").toString().replace(/\n$/, '');
 	}
 
 	if(opts.url.indexOf("/") == 0){
